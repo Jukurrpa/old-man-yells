@@ -1,6 +1,6 @@
 # Old Man Yells at Anything
 
-A website to generate an old-man-yells-at meme for any image in a heartbeat and use in your favourite chat app.
+A website to generate an old-man-yells-at meme for any image in a heartbeat to use in your favourite chat app.
 
 ### Running the project
 
