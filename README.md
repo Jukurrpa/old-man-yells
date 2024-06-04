@@ -4,7 +4,8 @@ A website to generate an old-man-yells-at meme for any image in a heartbeat and 
 
 ### Running the project
 
-Just open the god damn HTML file.
+Just open the god damn HTML file.  
+Or access the [GitHub page](https://jukurrpa.github.io/old-man-yells/).
 
 ### Notes
 
