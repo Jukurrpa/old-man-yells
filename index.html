@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <link href="old-man-yells.png" rel="icon" type="image/png">
     <title>Old Man Yells at Anything</title>
+
     <style>
+        @font-face {
+            font-family: Impact;
+            src: url("impact.ttf");
+        }
+
         html {
-            font-family: sans-serif, serif;
+            font-family: sans-serif;
+            background: #c0ffff;
         }
 
         div.wordart {
@@ -14,7 +23,7 @@
         }
 
         div.wordart > h1 {
-            font-size: 54px;
+            font-size: 60px;
             font-family: Impact, sans-serif;
             letter-spacing: 8px;
             color: transparent;
@@ -39,10 +48,12 @@
 
         #old-man-yells-at-yellee {
             position: relative;
+            margin-top: 16px;
             width: 676px;
             height: 556px;
-            border: 1px solid #fee601;
+            border: 1px solid #00ffff;
             border-radius: 4px;
+            background: #ffffff;
         }
 
         #canvas-yellee {
@@ -74,14 +85,14 @@
             background: #fff;
             line-height: 30px;
             border-radius: 40px;
-            padding: 20px;
             font-size: 30px;
             font-weight: 600;
             transition: all 0.2s;
         }
 
         #label-input-yellee {
-            margin-top: 16px;
+            padding: 20px 40px;
+            margin-top: 24px;
             box-shadow: #6c00ff -2px -2px 0px 2px, #00a88a 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
         }
 
@@ -91,7 +102,7 @@
         }
 
         #button-download {
-            margin-top: 24px;
+            margin: 32px 0;
             line-height: 36px;
             border-radius: 48px;
             padding: 24px 48px;
@@ -193,7 +204,7 @@
     </div>
 
     <label for="input-yellee" id="label-input-yellee">
-        Pick something to yell at
+        Pick something to yell at…
     </label>
     <input accept="image/*" id="input-yellee" type="file">
     <button disabled="disabled" id="button-download">Start yelling!</button>
