@@ -2,7 +2,7 @@
 
 Version 2, December 2004
 
-Copyright (C) 2024 Eric Jukurrpa@noreply.users.github.com
+Copyright (C) 2024 Jukurrpa
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
